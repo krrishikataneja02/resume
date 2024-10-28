@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8em;
+    color: #007bff;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.education-item, .experience-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.education-item h3, .experience-item h3 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 5px;
+    position: relative;
+}
+
+ul li:before {
+    content: "✓"; /* You can use any symbol here */
+    position: absolute;
+    left: -20px;
+    color: #28a745; /* Green check mark */
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills ul li {
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
